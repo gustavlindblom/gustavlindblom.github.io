@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Gustav Lindblom'
+theme = "Bare"
+
+[params]
+mainSections = ["posts"]
+author = "Gustav Lindblom"
+email = "lindblom.gustav@gmail.com"
+description = "code and development"
+includeAuthorInTitle = true
+hero_colour = "light"
+disableAttribution = "true"
+
+[markup]
+    [markup.highlight]
+        style = "solarized-light"
